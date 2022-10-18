@@ -9,7 +9,7 @@
 int main(void)
 {
 	/*numbers*/
-	int i;
+	char i;
 
 	i = '0';
 	while (i <= '9')
@@ -19,13 +19,12 @@ int main(void)
 	}
 
 	/*lowercase alphabets*/
-	char l;
 
-	l = 'a';
-	while (l < 'g')
+	i = 'a';
+	while (i < 'g')
 	{
-		putchar(l);
-		l++;
+		putchar(i);
+		i++;
 	}
 	putchar('\n');
 	return (0);
