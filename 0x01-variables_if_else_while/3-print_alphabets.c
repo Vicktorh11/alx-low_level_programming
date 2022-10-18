@@ -7,9 +7,9 @@
   */
 int main(void)
 {
-	/*lowercase alphabet*/
 	char l;
 
+	/*lowercase alphabet*/
 	l = 'a';
 	while (l <= 'z')
 	{
@@ -18,13 +18,11 @@ int main(void)
 	}
 
 	/*uppercase alphabets*/
-	char L;
-
-	L = 'A';
-	while (L <= 'Z')
+	l = 'A';
+	while (l <= 'Z')
 	{
-		putchar(L);
-		L++;
+		putchar(l);
+		l++;
 	}
 	putchar('\n');
 	return (0);
