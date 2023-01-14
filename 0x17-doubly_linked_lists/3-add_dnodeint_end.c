@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * add_dnodeint - adds a new node at the end of a list
+ * add_dnodeint_end - adds a new node at the end of a list
  * @head: double pointer to the start of the linked list
  * @n: value to be added as new node
  *
